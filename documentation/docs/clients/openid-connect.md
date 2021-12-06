@@ -140,3 +140,9 @@ Additionally, it is possible to establish a behavior according to which, the loc
 config.setExpireSessionWithToken(true);
 config.setTokenExpirationAdvance(10);
 ```
+
+Since version 4.5.5 and to reinforce security, the `none` alogithm for ID tokens (meaning no signature validation) must be explicitly accepted by using:
+
+```java
+config.setAllowUnsignedIdTokens(true);
+```

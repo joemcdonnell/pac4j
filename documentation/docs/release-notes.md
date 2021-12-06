@@ -3,6 +3,10 @@ layout: doc
 title: Release notes&#58;
 ---
 
+**v4.5.5**:
+
+- Reinforce security on the OIDC protocol support: the `none` algorithm must be explicitly accepted on client side (`allowUnsignedIdTokens`)
+
 **v4.5.4**:
 
 - Patch log4j v2 (CVE-2021-44228)
