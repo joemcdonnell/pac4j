@@ -5,7 +5,8 @@ title: Release notes&#58;
 
 **v4.5.5**:
 
-- Reinforce security on the OIDC protocol support: the `none` algorithm must be explicitly accepted on client side (`allowUnsignedIdTokens`)
+- CVE-2021-44878: reinforce security on the OIDC protocol support: the `none` algorithm must be explicitly accepted on client side (`allowUnsignedIdTokens`)
+- Fully fix CVE-2021-44878 by checking the OIDC response type when creating the token validator
 
 **v4.5.4**:
 
